@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for Caseload Data",
+
+  "type": "object",
+
+  "properties": {
+    "Count": {
+      "type": "integer",
+      "description": "Count of cases by case type"
+    },
+    "GroupName": {
+      "type": "string",
+      "description": "Case Type"
+    },
+    "ActionName": {
+      "type": "string",
+      "description": "Type of action taken"
+    } 
+  }
+}
